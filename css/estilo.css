@@ -9,16 +9,17 @@ body {
     display: flex;
     justify-content: center;
     padding: 100px;
+
 }
 
 .produto-cartao,
 .cartao-produto {
-    width: 260px;
+    width: 375px;
     display: flex;
-    flex-direction: column;
 }
 
 .produto-cartao img {
+    max-width: 375px;
     border-top-left-radius: 5px;
     border-end-start-radius: 5px;
 }
@@ -31,26 +32,24 @@ body {
 }
 
 .cartao-produto span {
-    padding: 5px;
+    width: 100%;
+    padding: 30px;
     font-size: 17px;
 }
 
 .cartao-produto h1 {
-    width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .cartao-produto p {
-    width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     color: #888;
 }
 
 .cartao-produto button {
-    display: block;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     margin-top: 20px;
     background-color: #4caf50;
     color: #fff;
