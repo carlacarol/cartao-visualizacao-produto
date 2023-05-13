@@ -8,13 +8,13 @@ body {
     background-color: rgb(230, 203, 169);
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 100px;
 }
 
 .produto-cartao,
 .cartao-produto {
-    width: 375px;
-    height: 502px;
+    width: 240px;
+    height: 300px;
     display: flex;
     flex-direction: column;
 }
