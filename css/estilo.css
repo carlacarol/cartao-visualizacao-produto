@@ -13,10 +13,14 @@ body {
 
 .produto-cartao,
 .cartao-produto {
-    width: 240px;
-    height: 300px;
+    width: 260px;
     display: flex;
     flex-direction: column;
+}
+
+.produto-cartao img {
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
 }
 
 .cartao-produto {
@@ -29,13 +33,6 @@ body {
 .cartao-produto span {
     padding: 5px;
     font-size: 17px;
-}
-
-.produto-cartao img {
-    max-width: 1440px;
-    border-top-left-radius: 5px;
-    border-end-start-radius: 5px;
-    margin-bottom: 15px;
 }
 
 .cartao-produto h1 {
